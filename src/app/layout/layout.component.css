@@ -1,0 +1,19 @@
+
+
+.elements-container {
+  display: grid;
+}
+.elements-container .element {
+
+  box-shadow: 1px 1px 1px 2px gray;
+  margin: 10px 20vw;
+  padding: 1em;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.elements-container .element:hover {
+  background-color: aquamarine;
+}

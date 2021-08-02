@@ -1,0 +1,7 @@
+
+<ul>
+
+<li *ngFor="let l of allLayout" >
+  <input type="checkbox" [checked]="getLayoutVisibility(l)" (change)="changeLayoutVisibility(l)">
+  Layout {{l}}</li>
+</ul>

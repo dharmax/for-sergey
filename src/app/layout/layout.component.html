@@ -1,0 +1,13 @@
+
+<section class="layout-component">
+  <h1>Layout {{layoutName}}</h1>
+
+  <section class="elements-container" #elementsContainer>
+    <div class="element {{e}}" *ngFor="let e of elements">
+        Element {{e}}
+    </div>
+  </section>
+  <button (click)="resetAndRefresh()">Reset Layout</button>
+
+</section>
+
