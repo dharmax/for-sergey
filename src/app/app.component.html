@@ -3,7 +3,7 @@
   <nav>
     <a routerLink="/config">Configuration</a>
 
-    <a *ngFor="let l of layouts" routerLink="/layout/{{l}}">Layout {{l}}</a>
+    <a *ngFor="let l of layouts|async" routerLink="/layout/{{l}}">Layout {{l}}</a>
   </nav>
 
 </section>
